@@ -1,0 +1,57 @@
+* {
+  background-color: black;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 25px;
+  translate: 2s;
+  transition: all 0.2s ease-in-out;
+}
+.App {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+  gap: 20px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 170px;
+  row-gap: 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 270px;
+}
+.profile:hover img {
+  transform: scale(1.2);
+}
+p {
+  color: rgb(176, 176, 176);
+  font-size: 13px;
+}
+input {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 15px;
+}
